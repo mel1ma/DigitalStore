@@ -1,8 +1,26 @@
-# React + Vite 
+# Digital Store 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+É um Projeto Front-End para uma loja virtual desenvolvido com HTML, 
+CSS, React.js, JAVASCRIP, Vite.. Feito para entrega de conhecimentos do curso Geração Tech.
 
-Currently, two official plugins are available:
+## Instalação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone o repositório:
+
+   **bash**
+   git clone https://github.com/mel1ma/DigitalStore.git
+   cd DigitalStore
+
+ 2. Instale as dependências:
+
+    npm install
+
+ 3. Inicie no servidor:
+
+    npm run dev
+    
+
+## Contribuidores do Projeto
+
+- [Maria Estefânia Lima](https://github.com/mel1ma)
+- [Stefania Oliveira Bussu](https://github.com/StefaniaBussu)
