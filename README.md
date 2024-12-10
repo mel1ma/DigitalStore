@@ -1,7 +1,13 @@
 # Digital Store 
 
-É um Projeto Front-End para uma loja virtual desenvolvido com HTML, 
-CSS, React.js, JAVASCRIP, Vite.. Feito para entrega de conhecimentos do curso Geração Tech.
+Projeto Front-End de uma loja virtual feita para avaliação no curso Geração Tech da Digital College.
+O projeto foi desenvolvido majoritariamente com React (Vite) e utiliza de CSS.
+
+Vídeo de Apresentação:
+https://github.com/user-attachments/assets/9fbe0b62-523c-407e-9a10-58c72a0055de
+
+SS, React.js, JAVASCRIP, Vite.. Feito para entrega de conhecimentos do curso Geração Tech.
+
 
 ## Instalação
 
