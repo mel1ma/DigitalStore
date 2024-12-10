@@ -22,5 +22,5 @@ CSS, React.js, JAVASCRIP, Vite.. Feito para entrega de conhecimentos do curso Ge
 
 ## Contribuidores do Projeto
 
-- [Maria Estefânia Lima](https://github.com/mel1ma)
+- [Maria Estefânia Dias de Lima](https://github.com/mel1ma)
 - [Stefania Oliveira Bussu](https://github.com/StefaniaBussu)
