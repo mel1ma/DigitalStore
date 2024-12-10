@@ -2,13 +2,13 @@ import { InputText } from 'primereact/inputtext';
 import { IconField } from 'primereact/iconfield';
 import { InputIcon } from 'primereact/inputicon';
 import { Button } from 'primereact/button';
-import HeaderLogin from './HeadLogin';
+import HeaderLC from './HeaderLC';
 
 const Cadastro = () => {
 
     return (
         <>
-        <HeaderLogin/>
+        <HeaderLC/>
             <div className='h-screen flex align-items-center justify-content-center'>
                 <form className='col-12 md:col-3 surface-0 border-round-md'>
                     <h3 className='text-center' style={{color:'#C92071', fontSize:'40px'}}>Cadastro</h3>
