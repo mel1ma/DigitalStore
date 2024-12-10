@@ -1,7 +1,10 @@
 import React from 'react';
 import { Carousel } from 'primereact/carousel';
 import Slide1 from '../assets/images/Slide1ed.png';
+import { useNavigate } from 'react-router-dom';
 const Gallery = () => {
+
+    const navigate = useNavigate();
 
     const products = [
         { id: 1, name: 'Produto 1', image: Slide1 },
@@ -21,7 +24,7 @@ const Gallery = () => {
                     <img src={product.image} alt={product.name} style={{ width: '100%', height: '500px', objectFit: 'cover' }}/>
                 </div>
                 <div>
-                <button className="button-carousel">Ver Ofertas</button>
+                <button className="button-carousel" onClick={() => navigate('/produtos')}>Ver Ofertas</button>
                 </div>
             </div>
         );

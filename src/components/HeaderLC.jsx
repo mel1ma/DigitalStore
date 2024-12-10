@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import Carrinho from '../assets/images/mini-cart.svg';
 import { Logo } from './Logo/Logo';
-import { Link} from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
 import { HiBars3 } from "react-icons/hi2";
 
 const HeaderLC = () => {
+
+    const navigate = useNavigate();
+
     const [cartVisible, setCartVisible] = useState(false);
 
     const handleKeyDown = (event) => {
@@ -46,12 +49,24 @@ const HeaderLC = () => {
 
 
             <div className="sidebar">
-                <Sidebar visible={cartVisible} onHide={() => setCartVisible(false)} position="right" className="canva p-sidebar-md">
-                    <h2 className="mb-3">Meu Carrinho</h2>
-                    <div className="cart-items">
-                        <p>nada ainda no carrinho</p>
+                <Sidebar visible={cartVisible} onHide={() => setCartVisible(false)} position="right" className="canva p-sidebar-md" style={{maxHeight: '70vh', borderRadius: '5px', boxShadow: '0px 4px 25px 0px #00000026', border:'none'}}>
+                    <h2 className="mb-3" style={{ textAlign: 'center', padding: '20px' }}>Meu Carrinho</h2>
+                    <hr />
+                    <div className="cart-items" style={{ textAlign: 'center', padding: '20px' }} >
+                        <div style={{
+                            backgroundColor: '#eeeeee',
+                            borderRadius: '12px',
+                            padding: '40px',
+                            marginBottom: '20px',
+                        }}>
+                            <h4 style={{ fontSize: '18px', fontWeight: 'bold', color: '#333' }}>Seu carrinho está vazio</h4>
+                            <p style={{ fontSize: '16px', color: '#777', marginTop: '10px' }}>Adicione produtos para começar a comprar!</p>
+                        </div>
                     </div>
-                    <Button label="Finalizar Compra" className="p-button-success mt-3" />
+                    <div style={{ textAlign: 'center' }}>
+                    <Button label="Ver ofertas" className="p-button-success mt-3" style={{ 
+                            backgroundColor: '#C92071', color: '#fff', borderRadius: '5px', padding: '10px 20px', border: 'none'}} onClick={() => navigate('/produtos')}/>
+                        </div>
                 </Sidebar>
             </div>
         </header>

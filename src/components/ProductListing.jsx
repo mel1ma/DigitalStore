@@ -34,11 +34,11 @@ const ProductListing = () => {
                     border: "none",
                     borderRadius: "4px",
                     cursor: "pointer",
-                    fontSize:'30px',
+                    fontSize:'20px',
                     marginRight:'2rem'
                 }}>
                     Ver todos
-                    <i className="fas fa-arrow-right" style={{ marginLeft: "8px", fontSize:'30px', marginLeft:'1rem' }}></i>
+                    <i className="fas fa-arrow-right" style={{ marginLeft: "8px", fontSize:'20px', marginLeft:'1rem' }}></i>
                 </Link>
             </div>
 
