@@ -7,7 +7,6 @@ O projeto foi desenvolvido com React (Vite), utilizando de CSS.
 
 https://github.com/user-attachments/assets/4d6f4778-365f-46a4-8f1a-18de0efe9bb8
 
-SS, React.js, JAVASCRIP, Vite.. Feito para entrega de conhecimentos do curso Geração Tech.
 
 
 ## Instalação
